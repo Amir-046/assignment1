@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Path to Success: Achieving Your Career Dreams - Aspiration</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', 'Cinzel', serif;
+      background-color: #111;
+      color: #eee;
+      line-height: 1.7;
+      background-image: linear-gradient(135deg, #222 25%, #111 100%);
+      background-attachment: fixed;
+    }
+
+    .container {
+      background-color: rgba(20, 20, 20, 0.9);
+      padding: 35px 30px;
+      max-width: 860px;
+      margin: 70px auto;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      transition: box-shadow 0.4s ease;
+    }
+
+    .container:hover {
+      box-shadow: 0 15px 40px rgba(0,0,0,0.9);
+    }
+
+    h1, h2, h3 {
+      color: #f0c14b;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.6em;
+      line-height: 1.2;
+    }
+
+    p {
+      margin-bottom: 1.2em;
+      font-size: 1.1rem;
+      color: #ddd;
+    }
+
+    a {
+      color: #4fc3f7;
+      text-decoration: none;
+      font-weight: 600;
+      position: relative;
+      transition: color 0.35s ease;
+      cursor: pointer;
+    }
+
+    a::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #4fc3f7;
+      left: 0;
+      bottom: -5px;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.35s ease;
+    }
+
+    a:hover {
+      color: #1a9edb;
+    }
+
+    a:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    a:active {
+      color: #0d6ca8;
+    }
+
+    a:active::after {
+      background-color: #0d6ca8;
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 30px;
+      position: relative;
+      border-bottom: 2px solid #f0c14b;
+      background-color: #111;
+      padding: 10px 0;
+      z-index: 10;
+    }
+
+    nav#main-nav a {
+      margin: 0 15px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding: 8px 12px;
+      border-radius: 6px;
+      user-select: none;
+      position: relative;
+      overflow: visible;
+      color: #fff;
+      background: none;
+      box-shadow: none;
+      transition: color 0.3s ease, background-color 0.3s ease;
+      display: inline-block;
+      cursor: pointer;
+      text-transform: uppercase;
+      border-bottom: none;
+    }
+
+    nav#main-nav a:hover {
+      color: #111;
+      background-color: #f0c14b;
+      text-decoration: none;
+      transform: none;
+      box-shadow: none;
+      z-index: auto;
+    }
+
+    nav#main-nav a:active {
+      color: #111;
+      background-color: #bfae5a;
+      transform: none;
+    }
+
+    .aspiration-gallery img {
+      max-width: 70%;
+      border-radius: 14px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav id="main-nav">
+      <a href="home.html">Home</a>
+      <a href="steps.html">Step by Step Guide</a>
+      <a href="inspiration.html">Inspiration & Resources</a>
+      <a href="photoshoot-gallery.html">Photo Gallery</a>
+      <a href="aspiration.html" class="active">Aspiration</a>
+    </nav>
+
+    <section id="aspiration">
+      <h1>My Aspiration to be a Photographer</h1>
+      <p>Photography is not just a hobby for me it is my passion and life’s dream. I aspire to become a professional photographer who captures the beauty, emotion, and complexity of the world through the lens of a camera. There is something magical about freezing a single moment in time and turning it into a visual story that can move people, evoke emotion, and spark inspiration. Through my work, I hope to tell powerful stories that connect people across cultures and backgrounds.</p>
+      
+      <p>To turn this dream into reality, I have set clear goals for myself. I want to master various photography techniques, from mastering camera settings and lighting to advanced composition and editing. Building a strong and versatile portfolio is one of my top priorities, as it will reflect my growth, creativity, and potential. I also dream of traveling to breathtaking locations—natural wonders, vibrant cities, and hidden corners of the worldto capture cinematic visuals that speak to the soul.</p>
+      
+      <p>My inspiration comes from iconic photographers like Steve McCurry, known for his deeply human and colorful portraits, and Annie Leibovitz, whose storytelling through portraiture has left a lasting mark on the industry. Their work inspires me to find my own voice and style in the photography world—one that reflects my vision, values, and personal connection to each subject I photograph.</p>
+      
+      <p>Ultimately, my aspiration to be a photographer is about more than taking pictures. It’s about capturing meaning, spreading beauty, and using visual storytelling to make a difference. With dedication, continuous learning, and a deep passion for the art, I believe I can achieve this dream and leave an impact through the images I create.
+      </p>
+      <div class="aspiration-gallery">
+        <img src="pic11.jpg" alt="Inspiration 1" />
+        <img src="pic12.jpg" alt="Inspiration 2" />
+        <img src="pic13.jpg" alt="Inspiration 3" />
+      </div>
+    </section>
+  </div>
+</body>
+</html>
